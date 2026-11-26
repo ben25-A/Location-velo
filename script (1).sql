@@ -7,7 +7,7 @@ CREATE TABLE `users`(
    `lastname` VARCHAR(255) NOT NULL,
    `login` INT NOT NULL,
    `password` VARCHAR(80),
-   role ENUM('admin', 'employee') NOT NULL DEFAULT 'employee',
+   role ENUM('admin', 'employee', 'client') NOT NULL DEFAULT 'client',
    PRIMARY KEY(`user_id`),
    UNIQUE(`login`)
 );
