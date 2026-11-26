@@ -1,0 +1,15 @@
+{
+    "name": "ben25-a/location-velo",
+    "authors": [
+        {
+            "name": "ben25-A",
+            "email": "benjaminayme25@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }   
+    }
+}

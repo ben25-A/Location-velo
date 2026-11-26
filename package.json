@@ -1,0 +1,26 @@
+{
+  "name": "location-velo",
+  "version": "1.0.0",
+  "description": "Location-velo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass scss/main.scss Public/css/main.css --watch",
+    "build": "sass scss/main.scss Public/css/main.css --style=compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ben25-A/Location-velo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ben25-A/Location-velo/issues"
+  },
+  "homepage": "https://github.com/ben25-A/Location-velo#readme",
+  "devDependencies": {
+    "sass": "^1.108.2"
+  }
+}
